@@ -1,0 +1,93 @@
+body {
+    background-color: #cbccce72;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+
+    h2 {
+        text-align: center;
+        color: #170d82d3;
+        font-size: 27px;
+        font-weight: 700;
+        margin-top: 5%;
+    }
+
+    form {
+        background-color: white;
+        border-radius: 8px;
+        padding: 40px 40px 1px;
+        max-width: 400px;
+        margin: 60px auto 0px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+        input {
+            width: 94% !important;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            color: #333;
+        }
+
+        select {
+            width: 100%;
+            padding: 12px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            color: #333;
+        }
+
+        input:focus,
+        select:focus {
+            outline: none;
+            border-color: #0066cc;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 15px;
+
+            &:hover {
+                background-color: #005bb5;
+            }
+
+        }
+        div {
+            p {
+                text-align: center;
+                font-size: 14px;
+                color: #666;
+                a {
+                    color: #0066cc;
+                    text-decoration: none;
+                    &::hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    .error {
+        padding: 5px;
+        background-color: rgba(255, 0, 0, 0.733);
+        border-radius: 5px;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        margin: 5px 0;
+    }
+}
+
+
+
+

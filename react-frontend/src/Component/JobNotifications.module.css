@@ -1,0 +1,17 @@
+.notificationBanner {
+    background-color: #f0ad4e;
+    color: white;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.notificationBanner ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.notificationBanner li {
+    margin: 5px 0;
+}
